@@ -4,6 +4,11 @@
 
 This smart contract allows players to collect, build, and earn rewards for their participation in the game's activities.
 
+- It has two main contracts, `ERC20` token contract and the `Vault` contract
+
+- The ERC20-Token contract, `src/ERC20.sol`, was deployed on the `marsSubnet` network at the contract address `0x5DB9A7629912EBF95876228C24A848de0bfB43A9` and
+- The Vault contract, `src/Vault.sol` was deployed on the `marsSubnet` network at the contract address`0xa4DfF80B4a1D748BF28BC4A271eD834689Ea3407`.
+
 ## Table of Contents
 
 - [DeFi Empire Smart Contract](#defi-empire-smart-contract)
@@ -137,11 +142,11 @@ interface IERC20 {
 
 ![07](./images/07.png)
 
-- Minting
+- Minting tokens
 
 ![08](./images/08.png)
 
-- Burning
+- Burning tokens
 
 ![09](./images/09.png)
 
