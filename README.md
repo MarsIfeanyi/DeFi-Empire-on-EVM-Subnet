@@ -28,25 +28,25 @@ This smart contract allows players to collect, build, and earn rewards for their
 
 ## Deploying my EVM subnet using the Avalanche CLI
 
-[01](./images/01.png)
+![01](./images/01.png)
 
-[02](./images/02.png)
+![02](./images/02.png)
 
 ## Added Subnet to Metamask and Connected to Injected Provider
 
-[03](./images/03.png)
+![03](./images/03.png)
 
 ## Deploying the Smart contract using Foundry
 
 - **`ERC20.sol`**
 
-  [04](./images/04.png)
+![04](./images/04.png)
 
 - **`Vault.sol`**
 
-  [05](./images/05.png)
+![05](./images/05.png)
 
-  [06](./images/06.png)
+![06](./images/06.png)
 
 ### The ERC20-TOken and Vault Contract
 
@@ -135,21 +135,37 @@ interface IERC20 {
 
 - Initial State
 
+![07](./images/07.png)
+
 - Minting
+
+![08](./images/08.png)
 
 - Burning
 
+![09](./images/09.png)
+
 - Approving the Vault contract to spend 100000 units of the ERC20 token
+
+![10](./images/10.png)
 
 ### Interacting with the Vault contract
 
 - Depositing 10000 units of the ERC20 token on the Vault
 
+![11](./images/11.png)
+
 - Checking Balance after deposit
+
+![12](./images/12.png)
 
 - Withdrawing
 
+![13](./images/13.png)
+
 - Checking Balance After Withdrawal
+
+![14](./images/14.png)
 
 ## Usage Guidelines
 
@@ -176,7 +192,6 @@ function approve(address spender, uint amount) external returns (bool);
 ## Demo Videos
 
 https://www.loom.com/share/c27c0fb724974177ad407bcead436d1e?sid=7c09cd67-4ef5-4547-b12a-7a4557b521a1
-
 
 https://www.loom.com/share/6e7fa57107714ac2b544bf122a91351d?sid=3360f4f6-1079-4ac0-b064-386201829daa
 
